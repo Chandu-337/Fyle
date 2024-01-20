@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Github API Webapp</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <div id="w">
+    <h1>Simple Github API Webapp</h1>
+    <p>Enter a single Github username below and click the button to display profile info via JSON.</p>
+    <form id="myForm">
+      <input type="text" name="ghusername" id="ghusername" placeholder="Github username...">
+      <input type="submit" value="Pull User Data">
+    </form>
+    <br>
+    <div id="ghapidata" class="clearfix"></div>
+  </div>
+</body>
+</html>
